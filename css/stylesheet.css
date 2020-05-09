@@ -380,11 +380,13 @@ video.fullscreen {
 }
 
 h1 {
-	font-size: 64px;
+  font-size: 48px;
+  width: 50%
 }
 
 h2 {
-	font-size: 48px;
+  font-size: 32px;
+  width: 50%
 }
 
 .button {
@@ -401,11 +403,12 @@ h2 {
 
 .collapsible {
   background-color: transparent;
-  color: #ECBD4F;
+  color: #B64864;
   cursor: pointer;
   font-family: 'Hind', sans-serif;
   width: 100%;
   border: none;
+  font-weight: bold;
   text-align: left;
   outline: none;
   font-size: 64px;
