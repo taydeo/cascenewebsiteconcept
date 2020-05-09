@@ -351,6 +351,7 @@ header.main_header {
 	min-height: 30px;
 	text-align: left;
 	font-size: 48px;
+	color: #ECBD4F;
 }
 
 ::selection {
@@ -387,6 +388,7 @@ h1 {
 h2 {
   font-size: 32px;
   width: 50%
+  color: white;
 }
 
 .button {
@@ -411,7 +413,7 @@ h2 {
   font-weight: bold;
   text-align: left;
   outline: none;
-  font-size: 64px;
+  font-size: 96px;
   -webkit-transition: color 1s;
   transition: color 1s;
 }
