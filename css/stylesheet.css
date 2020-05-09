@@ -344,15 +344,15 @@ html {
 }
 
 header.main_header {
-	position: relative;
-	width: 100%;
-	margin: 10px;
-  margin-bottom: 200px;
-	padding: 0;
-	min-height: 30px;
-	text-align: left;
-	font-size: 48px;
-	color: #ECBD4F;
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 150px;
+  padding: 0;
+  min-height: 30px;
+  text-align: left;
+  font-size: 48px;
+  color: #ECBD4F;
 }
 
 ::selection {
@@ -390,6 +390,7 @@ h2 {
   font-size: 32px;
   width: 50%;
   color: white;
+  margin-bottom: 100px;
 }
 
 .button {
