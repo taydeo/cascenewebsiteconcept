@@ -320,9 +320,9 @@
 }
 
 body {
-	font-family: 'Hind', sans-serif;
-	background-color: black;
-	color: #ECBD4F;
+  font-family: 'Hind', sans-serif;
+  background-color: black;
+  color: #B64864;
   padding-top: 25px;
   padding-right: 120px;
   padding-bottom: 120px;
@@ -376,15 +376,15 @@ video.fullscreen {
   height: auto;
   z-index: -100;
   transform: translate(-50%, -50%);
-  -webkit-filter: blur(25px);
+  -webkit-filter: blur(20px);
 }
 
 h1 {
-	font-size: 96px;
+	font-size: 64px;
 }
 
 h2 {
-	font-size: 64px;
+	font-size: 48px;
 }
 
 .button {
@@ -428,6 +428,7 @@ h2 {
 .p-minecraft {
 	color: #82BB71;
 	font-size: 64px;
+	font-weight: bold;
 }
 
 .item1 {grid-area: left;}
