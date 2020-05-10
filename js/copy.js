@@ -5,4 +5,6 @@ function copyIP() {
     copyIP.select();
     document.execCommand('copy');
     document.body.removeChild(copyIP);
+    txt = "Copied";
+    document.getElementById("IPCopy").innerHTML = txt;
 }
