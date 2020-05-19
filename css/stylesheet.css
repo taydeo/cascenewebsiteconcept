@@ -482,6 +482,67 @@ a {
   color: inherit;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+/* code that is here, until the first @media block, will apply to any screen size */
+#somethingorother {
+  width: 800px ;
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  h1 {
+    width: 50%;
+  }
+
+  .collapsible {
+    font-size: 70px;
+  }
+
+  header.main_header {
+    margin-left: -20px;
+    margin-bottom: 50px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    'left middle right'
+    'left middle right'
+    'left middle right';
+    width: 50px
+    align-content: center;
+    }
+
+    .grid-container > div {
+      text-align: center;
+      padding: 0px 0;
+      font-size: 20px;
+    }
+
+    .p-minecraft {
+      font-size: 25px;
+    }
+
+  button.a {
+    font-size: 70px;
+  }
+
+  #footer {
+    position: relative;
+    overflow-wrap: break-word;
+  }
+}
+
+
 h3 {
   font-size: 32px;
   width: 50%;
